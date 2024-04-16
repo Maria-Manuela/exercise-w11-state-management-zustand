@@ -1,0 +1,92 @@
+.todo-list-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-input {
+    flex: 1;
+    padding: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.add-button,
+.complete-button,
+.incomplete-button,
+.delete-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-button:hover,
+.complete-button:hover,
+.incomplete-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.complete-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.complete-button:hover {
+    background-color: #218838;
+}
+
+.incomplete-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+button.incomplete-button:hover {
+    background-color: #e0a800;
+}
